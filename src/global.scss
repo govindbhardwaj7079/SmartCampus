@@ -1,0 +1,114 @@
+@import "https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Roboto:wght@300&display=swap";
+
+:root {
+  --theme-color: #222831;
+  --subtheme-color: #393e46;
+  --primary-color: #00adb5;
+  --sub-primary-color: #eeeeee;
+}
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden !important;
+  font-family: "Oxygen mono", "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
+    "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--subtheme-color) !important;
+}
+code {
+  font-family: var(--oxygenMono), source-code-pro, Menlo, Monaco, Consolas,
+  "Courier New", monospace;
+}
+
+.ant-table-thead .ant-table-cell {
+  background-color: var(--theme-color) !important;
+  border: 1px solid gray   !important;
+  color: var(--sub-primary-color) !important;
+} 
+.ant-table-tbody .ant-table-cell {
+  background-color: var(--subtheme-color) !important;
+  border: 1px solid gray !important;
+  color: var(--sub-primary-color) !important;
+} 
+.ant-menu-submenu-title:hover {
+  .ant-menu-submenu-arrow::before,
+  .ant-menu-submenu-arrow::after {
+    background: var(--primary-color) !important;
+  }
+}
+
+.ant-menu > .ant-menu-title-content :hover {
+  color: var(--primary-color);
+}
+:where(.css-dev-only-do-not-override-22j71r).ant-menu-light.ant-menu-submenu
+  > .ant-menu {
+  color: var(--sub-primary-color);
+  background-color: var(--subtheme-color);
+}
+
+.ant-menu-submenu-title:hover:not(.ant-menu-selected):not(
+    .ant-submenu-selected
+  ) {
+  color: var(--primary-color) !important;
+}
+
+.ant-menu > .ant-menu-item:hover,
+.ant-menu > .ant-menu-item-active {
+  color: var(--primary-color) !important;
+}
+
+.ant-menu-light .ant-menu-item-selected {
+  background-color: var(--sub-theme-color) !important;
+}
+
+.ant-input::placeholder {
+  color: gray !important;
+}
+.ant-input{
+  background-color: var(--theme-color);
+  color: var(--sub-primary-color);
+  border-color: var(--theme-color);
+  caret-color: var(--sub-primary-color);
+}
+.ant-input::placeholder{
+  font-family:   "Josefin Sans", sans-serif  , Courier New, Courier, monospace;
+}
+
+.ant-form-item .ant-form-item-label >label{
+  color: var(--sub-primary-color) !important;
+}
+
+.container {
+  padding-inline: 8vw;
+}
+.ant-tabs-top > .ant-tabs-nav::before { /* For the line to the right and close to the tabs */
+  border-color: var(--subtheme-color);
+}
+.ant-tabs-tab-btn {
+  font-size: 1.2rem;
+}
+
+.ant-modal .ant-modal-content{
+  background-color: var(--sub-theme-color);
+}
+
+.anticon >* {
+color: var(--sub-primary-color);
+}
+@media (max-width: 1200px) {
+  .container {
+     padding-inline: 0.5rem !important;
+  }
+  .ant-tabs-tab-btn {
+    font-size: 1rem;
+  }
+  
+}

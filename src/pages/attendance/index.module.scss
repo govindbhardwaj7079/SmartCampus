@@ -1,0 +1,35 @@
+.attendanceTabs {
+  color: var(--sub-primary-color);
+}
+.tabsContainer {
+  background-color: var(--theme-color);
+  margin-top: 0.5rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+.teacherMenu {
+  background-color: var(--subtheme-color);
+  color: var(--sub-primary-color);
+  border-radius: 0.5rem !important;
+  margin-top: 0.5rem;
+}
+.createFormContainer {
+  background-color: var(--subtheme-color);
+  padding: 1rem;
+}
+
+.qrModal{
+    background-color: var(--subtheme-color) !important;
+}
+
+.scanContainer{
+  border-radius: 0.5rem;
+  background-color: var(--subtheme-color) !important;
+  padding: 1.5rem 1rem;
+}
+
+@media (max-width: 576px) {
+  .scanContainer{
+    padding: 1rem 0.5rem;
+  }
+}

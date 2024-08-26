@@ -1,0 +1,115 @@
+
+  .featureCards {
+    color: var(--sub-primary-color);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .managePadding {
+    padding-inline: 3rem;
+  }
+  .featureCardContainer {
+    margin-top: 3rem !important;
+    display: flex !important;
+    justify-content: center !important;
+  }
+  .featureCard {
+    width: 80%;
+    color: var(--sub-primary-color);
+    background-color: var(--theme-color) !important;
+    border: none;
+    border-radius: 1rem;
+    word-wrap: break-word;
+  }
+  
+  .missionDescription {
+    text-align: center !important;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 1.5rem;
+  }
+  
+  .cardDescription {
+    font-size: 1.1rem !important;
+  }
+  
+  .cardImage {
+    width: 100% !important;
+    padding: 2rem;
+    height: 20rem !important;
+    object-fit: contain !important;
+  }
+  
+  .imageGradient {
+    background: linear-gradient(
+      to right,
+      transparent,
+      var(--subtheme-color),
+      var(--theme-color)
+    );
+    border-radius: 1rem !important;
+  }
+  
+  // Responsive Breakpoint Mobile Device
+  
+  @media (max-width: 576px) {
+    .missionDescription {
+      font-size: 1.3rem;
+      padding-bottom: 0.5rem !important;
+      padding-bottom: 0.5rem !important;
+    }
+    .learnMoreButton {
+      width: 100% !important;
+    }
+    .infoCardImage {
+      display: flex !important;
+      justify-content: flex-end !important;
+      img {
+        width: 100% !important;
+        height: auto !important;
+      }
+    }
+    .infoContent {
+      flex-direction: column-reverse !important;
+    }
+    .infoCardDescription {
+      padding-top: 0 !important;
+      h1 {
+        padding-top: 0 !important;
+        font-size: 1.7rem !important;
+      }
+      ul > li {
+        font-size: 1rem !important;
+      }
+    }
+    .featureCard {
+      width: 95%;
+    }
+    .cardImage {
+      width: 90% !important;
+      height: 10rem !important;
+      object-fit: contain !important;
+    }
+    .managePadding {
+      padding: 0 !important;
+    }
+    .expoloreCardContainer {
+      padding: 2rem 0 !important;
+    }
+    .exploreCard {
+      width: 95%;
+    }
+    .exploreImage {
+      width: 90%;
+    }
+    .exploreDescription {
+      padding-bottom: 0;
+      h1 {
+        font-size: 1.5rem !important;
+        word-wrap: break-word;
+      }
+      p {
+        margin-top: 0;
+      }
+    }
+  }
+  

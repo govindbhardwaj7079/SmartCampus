@@ -1,0 +1,14 @@
+.footer{
+    padding: 1rem 0 !important;
+    margin-top: 2rem;
+    background-color: var(--theme-color) !important;
+}
+.footerText{
+    color: var(--sub-primary-color) !important; 
+}
+
+@media (max-width: 576px) {
+    .footer{
+        padding: 0.5rem 0 !important;
+    }
+}
