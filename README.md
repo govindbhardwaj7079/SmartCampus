@@ -3,8 +3,6 @@
 
 <br/>
 
-<strong>This is hackathon project and won the National Level Hackathon by Pragyaa at SGGS Engineering college Nanded, Maharashtra (India) by beating up multiple teams across the country. My team name was Phantom Troupe and I was the team leader too. </strong>
-
 <h3>Problem Statement: Digitalization of College Campus</h3>
 
 <h3>Description: </h3>
