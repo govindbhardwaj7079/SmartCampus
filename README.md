@@ -1,7 +1,6 @@
 
-<h2> Proxy Free QR Based Attendance </h3>
+<h2> QR Based Attendance and Gate Pass</h3>
 
-Site is hosted at URL: https://digiicampus.netlify.app/
 <br/>
 
 <strong>This is hackathon project and won the National Level Hackathon by Pragyaa at SGGS Engineering college Nanded, Maharashtra (India) by beating up multiple teams across the country. My team name was Phantom Troupe and I was the team leader too. </strong>
