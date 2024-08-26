@@ -32,8 +32,8 @@ We developed Proxy Free QR Based Attendance web application where no one can giv
 
 Open a code and run following command in terminal (Make sure that Node JS is already installed)
 
-<code> git clone https://github.com/govindbhardwaj7079/SmartCampus.git  </code>
-<code> cd SmartCampus </code>
+<code> git clone https://github.com/govindbhardwaj7079/SmartCampus.git  </code></br>
+<code> cd SmartCampus </code></br>
 <code> npm install </code>
 
 To run the app use command
